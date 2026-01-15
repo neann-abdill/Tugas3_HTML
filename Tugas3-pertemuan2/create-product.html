@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+</head>
+<body>
+    <h1>Create Product</h1>
+    <h2>Detail Product</h2>
+
+    <form action="">
+        <label for="Product-name">Product name:</label>
+        <br>
+        <input type="text" name="Product" id="Product-name">
+        <br>
+        <label for="Product-Category">Product Category:</label>
+        <br>
+        <select name="Category" id="Product-Category">
+           <option value="fruit">fruit</option>
+           <option value="household">household</option> 
+           <option value="carpentry">carpentry</option>
+
+        </select>
+
+        <p>Product Freshness:</p>
+        <input type="radio" name="Product-Freshness" id="Brand-New" value="Brand-New">
+        <label for="Brand-New">Brand New</label>
+        <br>
+        <input type="radio" name="Product-Freshness" id="Second-Hank" value="Second-Hank">
+        <label for="Second-Hank">Second Hank</label>
+        <br>
+        <input type="radio"name="Product-Freshness" id="Refurbished">
+        <label for="Refurbished">Refurbished</label>
+        <br>
+
+        <p>Image of Product  <label for="Choose-File"></label>
+          <input type="file" name="file" id="Choose-File"> </p>
+            <br>
+
+            <p>
+                <label for="Additional-Description">Additional Description</label></p>
+                <textarea name="Additional-Description" id="Additional-Description" rows="10" cols="40"></textarea>
+                <br>
+
+                <label for="Product-Price">Product Price:</label>
+                <br>
+                <input type="text" name="Price" id="Product-Price" value="100$">
+                <br>
+                <br>
+                <button>Submit</button>
+
+
+
+
+    </form>
+</body>
+</html>
