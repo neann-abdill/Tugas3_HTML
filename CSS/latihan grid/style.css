@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 20px;
+}
+
+.child1 {
+    background-color: aquamarine;
+    grid-row: span 2;
+}
+
+.child2 {
+    background-color: aquamarine;
+    grid-column: span 2;
+}
+
+.child3 {
+    background-color: aquamarine;
+    height: 100px;
+    grid-column: span 2 ;
+    grid-row: span 2 ;
+}

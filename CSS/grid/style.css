@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:90px 90px 90px;
+    gap: 20px;
+
+}
+
+.child1{
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    
+}
+
+.child2{
+    background-color: crimson;
+    border: 2px solid black;
+}
+
+.child3{
+    background-color:blueviolet;
+    border: 2px solid black;
+}
+
+.child4{
+    background-color:darkblue;
+    border: 2px solid black;
+    grid-column: span 2;
+}
+
+.child5{
+    background-color:coral;
+    border: 2px solid black;
+}
+
+.child6{
+    background-color:cyan;
+    border: 2px solid black;
+}
+
+.child7{
+    background-color:cadetblue;
+    border: 2px solid black;
+    grid-column: span 2;
+}

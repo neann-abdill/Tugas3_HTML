@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .navbar{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 17px 17px 17px 17px;
+    background-color: cornflowerblue;
+    position: fixed;
+    width:1600px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.logo, .home, .aboutme, .porto {
+    margin-right:20px ;
+}
+
+.deskripsi {
+    padding-top: 80px;
+    
+}
+
+.button {
+    position: sticky;
+    padding: 10px;
+    margin: 40px;
+    top: 50px;
+
+} */
+
+.deskripsi1 {
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.deskripsi2 {
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+}
+
+.parent {
+    background-color: aquamarine;
+}
